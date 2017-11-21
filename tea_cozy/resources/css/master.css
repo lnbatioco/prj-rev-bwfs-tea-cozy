@@ -1,0 +1,168 @@
+/* G E N E R A L */
+
+* {
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+}
+
+body,
+header,
+.main-text,
+.location-item {
+  background-color: black;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4, .item-name {
+  margin-top: 0px;
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+.main-text, .location-item {
+  opacity: 0.9;
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* W I D T H S */
+
+.content, .main-text {
+  width: 1200px;
+}
+
+header,
+.locations,
+footer {
+  width: 100%;
+}
+
+
+/* H E A D E R */
+
+header {
+  top: 0;
+  height: 69px;
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+nav span {
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+
+/* M A I N */
+
+.main {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-text {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 1;
+}
+
+
+/* T E A - O F - T H E - M O N T H */
+
+.tea-of-the-month {
+  width: 1000px;
+  margin-top: 70px;
+  display: block;
+  text-align: center;
+}
+
+.featured-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.item-name {
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+
+/* L O C A T I O N S */
+
+.locations {
+  height: 570px;
+  margin-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-list {
+  margin: 0 15px;
+  display: flex;
+  text-align: center;
+}
+
+.location-item {
+  width: 300px;
+  margin: 15px 40px;
+}
+
+
+/* F O O T E R */
+
+footer {
+  height: 200px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.copyright {
+  margin: 70px 0 20px 20px;
+  text-align: left;
+}
